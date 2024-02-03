@@ -131,6 +131,10 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 
 STATIC_URL = '/static/'
 
-#Login url
+# Login url
 
 LOGIN_URL = 'rango:login'
+
+# Session expiring variable
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
